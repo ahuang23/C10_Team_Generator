@@ -31,10 +31,10 @@
   - Email: a.huang232@gmail.com
 
   ## Sample
-  ![Team Generator]()
+  ![Team Generator](./images/image1.png)
 
   ## Links
   [GitHub](https://github.com/ahuang23/C09_ReadMe_Generator)
-  [Tutorial]()
+  [Tutorial](https://watch.screencastify.com/v/8507WzI8fZsDTxJJF6UB)
 
 
