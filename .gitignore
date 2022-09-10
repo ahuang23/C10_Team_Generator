@@ -1,0 +1,5 @@
+// Remove DS STore
+.DS_Store
+
+// Remove VS Code
+.vscode
