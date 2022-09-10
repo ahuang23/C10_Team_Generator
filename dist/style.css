@@ -1,0 +1,12 @@
+header {
+    text-align: center;
+    background-color: black;
+    height: 60px;
+    color: white;
+    padding-top: 5px;
+}
+
+.card-header {
+    background-color: black;
+    color: white;
+}
