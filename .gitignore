@@ -3,3 +3,6 @@
 
 // Remove VS Code
 .vscode
+
+// Remove Node modules
+node_modules
