@@ -54,7 +54,7 @@ const createIntern = (employee) => {
     `
 };
 
-// Push array to page 
+// Create HTML 
 generateHTML = (data) => {
 
     // Array for cards 
@@ -88,16 +88,17 @@ generateHTML = (data) => {
         
     }
 
-    const allCards = pageArr.join('')
+    // const allCards = pageArr.join('')
 
     // Return to page
-    return generateTeamIndex(allCards); 
+    return generateTeamIndex(pageArr); 
+    console.log(pageArr);
 
 
 }
 
 // Generate html page 
-const generateTeamIndex = (allCards) => {   
+const generateTeamIndex = (pageArr) => {   
   return`
   <!DOCTYPE html>
   <html lang="en">
@@ -117,7 +118,7 @@ const generateTeamIndex = (allCards) => {
           <div class="container">
               <div class="row justify-content-center" id="team-cards">
                   <!--Team Cards-->
-                  ${allCards}
+                  ${pageArr}
               </div>
           </div>
       </main>
