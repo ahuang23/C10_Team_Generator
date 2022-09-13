@@ -88,16 +88,16 @@ generateHTML = (data) => {
         
     }
 
-    const employeeCards = pageArr.join('')
+    const allCards = pageArr.join('')
 
     // Return to page
-    const generateTeam = generateTeamPage(employeeCards); 
-    return generateTeam;
+    return generateTeamIndex(allCards); 
+
 
 }
 
 // Generate html page 
-const generateTeamPage = (employeeCards) => {   
+const generateTeamIndex = (allCards) => {   
   return`
   <!DOCTYPE html>
   <html lang="en">
@@ -117,7 +117,7 @@ const generateTeamPage = (employeeCards) => {
           <div class="container">
               <div class="row justify-content-center" id="team-cards">
                   <!--Team Cards-->
-                  ${employeeCards}
+                  ${allCards}
               </div>
           </div>
       </main>
