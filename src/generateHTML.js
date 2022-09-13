@@ -1,34 +1,34 @@
 // Create Manager Card
-const createManager = (manager) => {
+const createManager = (employee) => {
     return `
     <div class="col-4 mt-4">
     <div class="card h-100">
         <div class="card-header">
-            <h3>${manager.name}</h3>
+            <h3>${employee.name}</h3>
             <h4>Manager</h4><i class="material-icons">face</i>
         </div>
         <div class="card-body">
-            <p>ID: ${manager.id}</p>
-            <p>Email: <a href="mailto:${manager.email}">${manager.email}</a></p>
-            <p>Office Number: ${manager.officeNumber}</p>
+            <p>ID: ${employee.id}</p>
+            <p>Email: <a href="mailto:${employee.email}">${employee.email}</a></p>
+            <p>Office Number: ${employee.officeNumber}</p>
         </div>
     </div>
 </div>`
 };
 
 // Create Engineer Card
-const createEngineer = (engineer) => {
+const createEngineer = (employee) => {
     return `
     <div class="col-4 mt-4">
         <div class="card h-100">
             <div class="card-header">
-                <h3>${engineer.name}</h3>
+                <h3>${employee.name}</h3>
                 <h4>Engineer</h4><i class="material-icons">laptop</i>
             </div>
             <div class="card-body">
-                <p>ID: ${engineer.id}</p>
-                <p>Email: <a href="mailto:${engineer.email}">${engineer.email}</a></p>
-                <p>Github: <a href="https://github.com/${engineer.github}">${engineer.github}</a></p>
+                <p>ID: ${employee.id}</p>
+                <p>Email: <a href="mailto:${employee.email}">${employee.email}</a></p>
+                <p>Github: <a href="https://github.com/${employee.github}">${employee.github}</a></p>
             </div>
         </div>
     </div>
@@ -36,18 +36,18 @@ const createEngineer = (engineer) => {
 }
 
 // Create Intern card 
-const createIntern = (intern) => {
+const createIntern = (employee) => {
     return `
     <div class="col-4 mt-4">
         <div class="card h-100">
             <div class="card-header">
-                <h3>${intern.name}</h3>
+                <h3>${employee.name}</h3>
                 <h4>Intern</h4><i class="material-icons">school</i>
             </div>
             <div class="card-body">
-                <p>ID: ${intern.id}</p>
-                <p>Email:<a href="mailto:${intern.email}">${intern.email}</a></p>
-                <p>School: ${intern.school}</p>
+                <p>ID: ${employee.id}</p>
+                <p>Email:<a href="mailto:${employee.email}">${employee.email}</a></p>
+                <p>School: ${employee.school}</p>
             </div>
     </div>
 </div>
